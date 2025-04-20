@@ -52,7 +52,7 @@ body {
 
 .sub-container {
   background-color: #ffffff;
-  padding: 2em; /* Utiliza em en lugar de píxeles */
+  padding: 0em; /* Utiliza em en lugar de píxeles */
   margin: 1em 0; /* Utiliza em en lugar de píxeles */
 }
 
