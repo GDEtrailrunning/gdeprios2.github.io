@@ -52,7 +52,7 @@ body {
 
 .sub-container {
   background-color: #ffffff;
-  padding: 0em; /* Utiliza em en lugar de píxeles */
+  padding: 2em; /* Utiliza em en lugar de píxeles */
   margin: 1em 0; /* Utiliza em en lugar de píxeles */
 }
 
@@ -207,7 +207,7 @@ video {
   background-color: #fffdfd;
   text-align-last:center; 
   padding: 0em;
-  width: 55%;
+  width: 100%;
   border-radius: 7px; 
   height:auto;
   display: flex;
