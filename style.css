@@ -185,7 +185,7 @@ video {
 }
 
 .sub-container h4 {
-  background-color: #22bdd8;
+  background-color: #555350;
   padding: 2em; /* Utiliza em en lugar de píxeles */
   margin: 0; /* Elimina márgenes predeterminados */
   font-family: 'Arial', sans-serif;
@@ -193,7 +193,7 @@ video {
   text-align: center;
 }
 .sub-container h2 {
-  background-color: #b1a8a2;
+  background-color: #e7732f;
   padding: 2.0em; /* Utiliza em en lugar de píxeles */
   margin: 0; /* Elimina márgenes predeterminados */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
