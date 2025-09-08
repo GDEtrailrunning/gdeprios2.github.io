@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   actualizarDiasRestantes();
   setInterval(actualizarDiasRestantes, 24*60*60*1000); // Actualizar diario
-
-
+  
   // Crear dos nuevas instancias de HTMLVideoElement para cada sección
   let Semana_1_video_1 = document.createElement("video");
   let Semana_1_video_2 = document.createElement("video");
@@ -37,15 +36,5 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("Semana 1").appendChild(video2);
   document.getElementById("Semana 2").appendChild(video3);
   document.getElementById("Semana 2").appendChild(video4);
-
-  audios.forEach(audio => {
-    audio.addEventListener("play", () => {
-      audios.forEach(otherAudio => {
-        if (otherAudio !== audio) {
-          otherAudio.pause();
-        }
-      });
-    });
-  });
 
 });
